@@ -11,8 +11,7 @@ public class DemoApp {
 		//retrieve bean from spring container
 		Coach theCoach=context.getBean("myCoach",Coach.class);
 		//call the method
-		System.out.println(theCoach.getDailyWork());
-		System.out.println(theCoach.getDailyFortune());
+		System.out.println(theCoach);
 		//close context
 		context.close();
 	}

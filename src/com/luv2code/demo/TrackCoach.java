@@ -14,5 +14,11 @@ public class TrackCoach implements Coach {
 	public String getDailyFortune() {
 		return fortuneService.getFortune();
 	}
+	public void phoneNumber() {
+		System.out.println(123);
+	}
+	public void emailAddress() {
+		System.out.println("abc@gmail.com");
+	}
 
 }
